@@ -1,0 +1,7 @@
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.Form1.resources
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.AssemblyInfoInputs.cache
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.AssemblyInfo.cs
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\114_1_C_sharp\LOginDemo\LOginDemo\obj\Debug\net8.0-windows\LOginDemo.sourcelink.json
