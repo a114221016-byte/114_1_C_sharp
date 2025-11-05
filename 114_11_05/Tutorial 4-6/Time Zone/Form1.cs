@@ -43,9 +43,7 @@ namespace Time_Zone
                     case "舊金山":
                         timeZoneLabel.Text = "太平洋時區 (UTC-8)";
                         break;
-                    default:
-                        timeZoneLabel.Text = "";
-                        break;
+                   
                 }
             }
             else
@@ -63,7 +61,7 @@ namespace Time_Zone
 
         private void cityListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
     }
 }
