@@ -37,6 +37,9 @@
             this.peasanradioButton4 = new System.Windows.Forms.RadioButton();
             this.hamsanradioButton3 = new System.Windows.Forms.RadioButton();
             this.tunaSanButton2 = new System.Windows.Forms.RadioButton();
+            this.button01 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -154,11 +157,34 @@
             this.tunaSanButton2.Text = "鮪魚三明治";
             this.tunaSanButton2.UseVisualStyleBackColor = true;
             // 
+            // button01
+            // 
+            this.button01.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button01.Location = new System.Drawing.Point(49, 667);
+            this.button01.Name = "button01";
+            this.button01.Size = new System.Drawing.Size(307, 91);
+            this.button01.TabIndex = 9;
+            this.button01.Text = "送出訂單";
+            this.button01.UseVisualStyleBackColor = true;
+            this.button01.Click += new System.EventHandler(this.button01_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.Location = new System.Drawing.Point(513, 667);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(307, 91);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "離開";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 644);
+            this.ClientSize = new System.Drawing.Size(940, 844);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button01);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -181,6 +207,9 @@
         private System.Windows.Forms.RadioButton peasanradioButton4;
         private System.Windows.Forms.RadioButton hamsanradioButton3;
         private System.Windows.Forms.RadioButton tunaSanButton2;
+        private System.Windows.Forms.Button button01;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
