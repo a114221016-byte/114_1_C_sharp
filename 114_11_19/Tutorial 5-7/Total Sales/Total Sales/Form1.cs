@@ -40,14 +40,26 @@ namespace Total_Sales
             StreamReader inputFile;
             decimal total = 0m; 
             decimal currentSales = 0m;
+            string line;
 
             try
                 {
                 inputFile = File.OpenText("Sales.txt");
+                listBox1.Items.Clear();
+
                 while (!inputFile.EndOfStream)
                 {
-                    currentSales = decimal.Parse(inputFile.ReadLine());
-                    total += currentSales;
+                    if (decimal.TryParse(line = inputFile.ReadLine(), out currentSales))
+                    {
+                        listBox1.Items.Add(line);
+                        currentSales = decimal.Parse(inputFile.ReadLine());
+                        total += currentSales;
+                    }
+                    else
+                    {
+                        MessageBox.Show("資料格式錯誤: " + line);
+                        break;
+                    }
                 }
                 inputFile.Close();
                 totalLabel.Text = total.ToString("C");
@@ -55,6 +67,7 @@ namespace Total_Sales
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+                return;
             }
             // 計算按鈕點擊事件處理：請在此加入讀取與計算邏輯
         }

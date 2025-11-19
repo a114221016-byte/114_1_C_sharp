@@ -49,3 +49,4 @@ C:\Users\m303\Desktop\114_1_C_sharp\114_11_19\Tutorial 5-7\Total Sales\Total Sal
 C:\Users\m303\Desktop\114_1_C_sharp\114_11_19\Tutorial 5-7\Total Sales\Total Sales\obj\x86\Debug\Total Sales.csproj.CoreCompileInputs.cache
 C:\Users\m303\Desktop\114_1_C_sharp\114_11_19\Tutorial 5-7\Total Sales\Total Sales\obj\x86\Debug\Total Sales.exe
 C:\Users\m303\Desktop\114_1_C_sharp\114_11_19\Tutorial 5-7\Total Sales\Total Sales\obj\x86\Debug\Total Sales.pdb
+C:\Users\m303\Desktop\114_1_C_sharp\114_11_19\Tutorial 5-7\Total Sales\Total Sales\obj\x86\Debug\Total Sales.exe.config
