@@ -13,8 +13,8 @@ namespace Friend_File
 {
     public partial class Form1 : Form
     {
-        // 將 count 欄位設為唯讀，因為它只在建構函式初始化，之後未被修改。
-        private readonly int count = 1; // 成員變數，計數朋友的數量
+        // 將 count 欄位移除 readonly 修飾詞，讓它可以在方法中遞增。
+        private int count = 1; // 成員變數，計數朋友的數量
         public Form1()
         {
             InitializeComponent();
