@@ -41,70 +41,78 @@
             // grossPayPromptLabel
             // 
             this.grossPayPromptLabel.AutoSize = true;
-            this.grossPayPromptLabel.Location = new System.Drawing.Point(43, 14);
+            this.grossPayPromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.grossPayPromptLabel.Location = new System.Drawing.Point(20, 15);
             this.grossPayPromptLabel.Name = "grossPayPromptLabel";
-            this.grossPayPromptLabel.Size = new System.Drawing.Size(85, 13);
+            this.grossPayPromptLabel.Size = new System.Drawing.Size(160, 31);
             this.grossPayPromptLabel.TabIndex = 0;
-            this.grossPayPromptLabel.Text = "Total Gross Pay:";
+            this.grossPayPromptLabel.Text = "總毛額薪資：";
             // 
             // bonusPromptLabel
             // 
             this.bonusPromptLabel.AutoSize = true;
-            this.bonusPromptLabel.Location = new System.Drawing.Point(49, 40);
+            this.bonusPromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.bonusPromptLabel.Location = new System.Drawing.Point(20, 60);
             this.bonusPromptLabel.Name = "bonusPromptLabel";
-            this.bonusPromptLabel.Size = new System.Drawing.Size(79, 13);
+            this.bonusPromptLabel.Size = new System.Drawing.Size(160, 31);
             this.bonusPromptLabel.TabIndex = 1;
-            this.bonusPromptLabel.Text = "Bonus Amount:";
+            this.bonusPromptLabel.Text = "獎金金額：";
             // 
             // grossPayTextBox
             // 
-            this.grossPayTextBox.Location = new System.Drawing.Point(135, 10);
+            this.grossPayTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.grossPayTextBox.Location = new System.Drawing.Point(200, 12);
             this.grossPayTextBox.Name = "grossPayTextBox";
-            this.grossPayTextBox.Size = new System.Drawing.Size(100, 20);
+            this.grossPayTextBox.Size = new System.Drawing.Size(150, 39);
             this.grossPayTextBox.TabIndex = 2;
             // 
             // bonusTextBox
             // 
-            this.bonusTextBox.Location = new System.Drawing.Point(135, 36);
+            this.bonusTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.bonusTextBox.Location = new System.Drawing.Point(200, 57);
             this.bonusTextBox.Name = "bonusTextBox";
-            this.bonusTextBox.Size = new System.Drawing.Size(100, 20);
+            this.bonusTextBox.Size = new System.Drawing.Size(150, 39);
             this.bonusTextBox.TabIndex = 3;
             // 
             // outputDescriptionLabel
             // 
             this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(9, 81);
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(20, 110);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(120, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(160, 31);
             this.outputDescriptionLabel.TabIndex = 4;
-            this.outputDescriptionLabel.Text = "Retirement Contribution:";
+            this.outputDescriptionLabel.Text = "退休金提撥：";
             // 
             // contributionLabel
             // 
             this.contributionLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.contributionLabel.Location = new System.Drawing.Point(135, 76);
+            this.contributionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.contributionLabel.Location = new System.Drawing.Point(200, 107);
             this.contributionLabel.Name = "contributionLabel";
-            this.contributionLabel.Size = new System.Drawing.Size(100, 23);
+            this.contributionLabel.Size = new System.Drawing.Size(150, 40);
             this.contributionLabel.TabIndex = 5;
             this.contributionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(47, 111);
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.calculateButton.Location = new System.Drawing.Point(20, 160);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 39);
+            this.calculateButton.Size = new System.Drawing.Size(150, 50);
             this.calculateButton.TabIndex = 6;
-            this.calculateButton.Text = "Calculate Contribution";
+            this.calculateButton.Text = "計算";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(128, 111);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F);
+            this.exitButton.Location = new System.Drawing.Point(200, 160);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 39);
+            this.exitButton.Size = new System.Drawing.Size(150, 50);
             this.exitButton.TabIndex = 7;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
@@ -112,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(250, 165);
+            this.ClientSize = new System.Drawing.Size(380, 225);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.contributionLabel);
@@ -122,7 +130,7 @@
             this.Controls.Add(this.bonusPromptLabel);
             this.Controls.Add(this.grossPayPromptLabel);
             this.Name = "Form1";
-            this.Text = "Pay and Bonus";
+            this.Text = "薪資和獎金計算";
             this.ResumeLayout(false);
             this.PerformLayout();
 
